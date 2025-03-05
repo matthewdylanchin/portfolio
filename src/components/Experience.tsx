@@ -1,8 +1,8 @@
-"use client"
-import React from "react"
-import { Briefcase, Calendar, MapPin, Globe } from "lucide-react"
-import { motion } from "framer-motion"
-import AnimatedSectionHeader from "./AnimatedSectionHeader"
+"use client";
+import React from "react";
+import { Briefcase, Calendar, MapPin, Globe } from "lucide-react";
+import { motion } from "framer-motion";
+import AnimatedSectionHeader from "./AnimatedSectionHeader";
 
 export default function Experience() {
   const experiences = [
@@ -12,40 +12,25 @@ export default function Experience() {
       period: "Nov 2024 - March 2025",
       role: "Front End Developer",
       responsibilities: [
-        "Developing custom web applications for international clients",
+        "Built and maintained modular React components to enhance the ERP system's front-end scalability and functionality.",
         "Building responsive and scalable frontend interfaces with React",
         "Implementing secure backend systems with Node.js and Express",
-        "Creating RESTful APIs and managing MongoDB databases",
+        "Debugged and optimized front-end code, improving performance metrics and reducing page load times.",
         "Collaborating with clients to deliver high-quality solutions",
       ],
     },
     {
-      company: "Salaba Fasteners",
-      location: "Saudi Arabia (Hybrid)",
-      period: "2024 - Present",
-      role: "MERN Stack Developer",
+      company: "Chumbaka",
+      location: "Kuching Malaysia",
+      period: "Dec 2021 - January 2022",
+      role: "Software Engineer Intern",
       responsibilities: [
-        "Developed full-fledged ERP system using MERN stack",
-        "Designed and implemented RESTful APIs",
-        "Created responsive interfaces with React.js and Redux",
-        "Implemented secure authentication systems",
-        "Utilized WebSockets for real-time features",
+        "Deployed and optimised a Learning Management System on a Raspberry Pi 4B using a LAMP stack, demonstrating cost-effective, scalable e-learning solutions.",
+        "Created user-friendly content aimed at assisting individuals encountering navigation difficulties within the LMS",
+        "Learned about IoT applications and potential benefits in daily life",
       ],
     },
-    {
-      company: "TechVention",
-      location: "Lahore, Pakistan",
-      period: "2022 - 2024",
-      role: "Software Engineer",
-      responsibilities: [
-        "Migrated codebase to Fastify with TypeScript",
-        "Implemented OOP concepts for scalability",
-        "Built backend REST API and OAuth",
-        "Integrated third-party APIs",
-        "Implemented i18n features",
-      ],
-    },
-  ]
+  ];
 
   return (
     <section
@@ -70,7 +55,9 @@ export default function Experience() {
               ></div>
               <div className="relative z-10">
                 <h3 className="text-2xl font-semibold mb-2 dark:text-white flex items-center">
-                  {exp.company === "Freelance" ? <Globe className="w-6 h-6 mr-2 text-blue-500" /> : null}
+                  {exp.company === "Freelance" ? (
+                    <Globe className="w-6 h-6 mr-2 text-blue-500" />
+                  ) : null}
                   {exp.company}
                 </h3>
                 <p className="text-gray-600 dark:text-gray-300 mb-4 flex items-center">
@@ -87,7 +74,10 @@ export default function Experience() {
                 </p>
                 <ul className="list-none space-y-2">
                   {exp.responsibilities.map((resp, idx) => (
-                    <li key={idx} className="text-gray-700 dark:text-gray-300 flex items-start">
+                    <li
+                      key={idx}
+                      className="text-gray-700 dark:text-gray-300 flex items-start"
+                    >
                       <span className="text-blue-500 mr-2">•</span>
                       {resp}
                     </li>
@@ -99,6 +89,5 @@ export default function Experience() {
         </div>
       </div>
     </section>
-  )
+  );
 }
-

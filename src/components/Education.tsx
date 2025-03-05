@@ -7,14 +7,9 @@ import { motion } from "framer-motion";
 export default function Education() {
   const education = [
     {
-      degree: "Bachelor's Degree in Computer Science",
-      institution: "GC University Faisalabad",
-      period: "2018 – 2022",
-      achievements: [
-        "Graduated with honors",
-        "Specialized in Web Technologies and Artificial Intelligence",
-        "Completed capstone project on 'Intelligent Web Application for Healthcare'",
-      ],
+      degree: "Bachelor's Degree in Computing and Software Systems",
+      institution: "University of Melbourne",
+      period: "2023 – 2025",
     },
   ];
 
@@ -48,17 +43,6 @@ export default function Education() {
                   <Calendar className="w-4 h-4 mr-2" />
                   {edu.period}
                 </p>
-                <h4 className="text-lg font-medium mb-2 dark:text-gray-200 flex items-center">
-                  <Award className="w-5 h-5 mr-2" />
-                  Key Achievements:
-                </h4>
-                <ul className="list-disc list-inside space-y-2">
-                  {edu.achievements.map((achievement, idx) => (
-                    <li key={idx} className="text-gray-700 dark:text-gray-300">
-                      {achievement}
-                    </li>
-                  ))}
-                </ul>
               </div>
             </motion.div>
           ))}
