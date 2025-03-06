@@ -95,14 +95,6 @@ const skills = [
       "Optimizing web applications for speed, accessibility, and search engine visibility.",
     color: "text-teal-500",
   },
-  {
-    icon: Workflow,
-    name: "Agile Methodologies",
-    tech: "Scrum, Kanban",
-    description:
-      "Working efficiently in agile environments with focus on continuous delivery.",
-    color: "text-cyan-500",
-  },
 ];
 
 export default function Skills() {

@@ -21,7 +21,7 @@ export default function Experience() {
     },
     {
       company: "Chumbaka",
-      location: "Kuching Malaysia",
+      location: "Kuching, Malaysia",
       period: "Dec 2021 - January 2022",
       role: "Software Engineer Intern",
       responsibilities: [

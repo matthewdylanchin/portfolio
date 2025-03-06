@@ -7,17 +7,17 @@ export default function About() {
     {
       icon: <Code className="w-8 h-8 text-blue-500" />,
       title: "Frontend",
-      description: "React, Next.js, Redux",
+      description: "React, Next.js",
     },
     {
       icon: <Server className="w-8 h-8 text-green-500" />,
       title: "Backend",
-      description: "Node.js, Express, Fastify",
+      description: "Node.js, Express",
     },
     {
       icon: <Database className="w-8 h-8 text-purple-500" />,
       title: "Database",
-      description: "MongoDB, Mongoose",
+      description: "MongoDB, MySQL, NoSQL",
     },
     {
       icon: <Zap className="w-8 h-8 text-yellow-500" />,
@@ -50,10 +50,10 @@ export default function About() {
             transition={{ duration: 0.5 }}
           >
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
-              As a passionate MERN Stack Developer, I specialize in building
-              robust and scalable web applications. With a strong foundation in
-              MongoDB, Express.js, React, and Node.js, I create seamless
-              full-stack solutions that deliver exceptional user experiences.
+              I specialize in building robust and scalable web applications.
+              With a strong foundation in MongoDB, React, and Node.js, I create
+              seamless full-stack solutions that deliver exceptional user
+              experiences.
             </p>
             <p className="text-xl text-gray-700 dark:text-gray-300 leading-relaxed">
               My expertise extends to modern frameworks like Next.js and state
