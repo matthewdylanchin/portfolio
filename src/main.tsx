@@ -11,6 +11,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import Home from "./page";
+import RootLayout from "./layout";
+
 import "./index.css"; // Ensure Tailwind or global styles are loaded
 
 const root = ReactDOM.createRoot(
@@ -19,6 +21,8 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <React.StrictMode>
-    <Home />
+    <RootLayout>
+      <Home />
+    </RootLayout>
   </React.StrictMode>
 );

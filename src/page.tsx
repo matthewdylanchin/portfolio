@@ -2,10 +2,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Skills from "./components/skills";
-import Services from "./components/services";
 import Education from "./components/Education";
 import FloatingNav from "./components/Floating-nav";
-import React from "react";
+import Projects from "./components/projects";
 
 export default function Home() {
   return (
@@ -15,7 +14,7 @@ export default function Home() {
       <About />
       <Experience />
       <Skills />
-      <Services />
+      <Projects />
       <Education />
     </main>
   );

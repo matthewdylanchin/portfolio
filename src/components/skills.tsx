@@ -26,7 +26,7 @@ const skills = [
   {
     icon: Code,
     name: "Frontend Development",
-    tech: "React.js, Next.js",
+    tech: "React.js, Next.js, Node.js",
     description:
       "Building responsive and interactive user interfaces with modern React features and Next.js for optimal performance.",
     color: "text-blue-500",
@@ -42,7 +42,7 @@ const skills = [
   {
     icon: Database,
     name: "Database Management",
-    tech: "MongoDB, Mongoose",
+    tech: "MySQL ,MongoDB",
     description:
       "Designing and implementing efficient database schemas and queries for optimal data management.",
     color: "text-purple-500",
@@ -82,7 +82,7 @@ const skills = [
   {
     icon: Cpu,
     name: "API Development",
-    tech: "REST, GraphQL",
+    tech: "REST",
     description:
       "Designing and implementing efficient APIs for seamless data communication.",
     color: "text-red-500",
