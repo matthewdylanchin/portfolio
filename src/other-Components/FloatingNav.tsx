@@ -9,9 +9,8 @@ const sections = [
   { id: "about", label: "About" },
   { id: "experience", label: "Experience" },
   { id: "skills", label: "Skills" },
-  { id: "services", label: "Services" },
+  { id: "projects", label: "Projects" },
   { id: "education", label: "Education" },
-  { id: "contact", label: "Contact" },
 ];
 
 export default function FloatingNav() {
@@ -26,7 +25,7 @@ export default function FloatingNav() {
           }
         });
       },
-      { threshold: 0.5 }
+      { threshold: 0.5 },
     );
 
     sections.forEach(({ id }) => {
