@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Book, LandPlot, Layout } from "lucide-react";
+import { Book, LandPlot, Layout, BarChart3, Table } from "lucide-react";
 import React from "react";
 
 export default function Projects() {
@@ -23,6 +23,18 @@ export default function Projects() {
       title: "Link List Based Dictionary ",
       description:
         "Developed a dictionary system using a linked list in C to manage and manipulate data based on Australian suburbs",
+    },
+    {
+      icon: <BarChart3 className="w-12 h-12 text-orange-500" />,
+      title: "Grant Outcome Analysis Tool",
+      description:
+        "Designed and built the backend for a tool helping research administrators analyse and compare grant outcomes across funding bodies like ARC and MRFF. Built RESTful APIs with Next.js and Prisma handling 70,000+ grant records, implemented automated scraping pipelines with Beautiful Soup that improved data update efficiency by 70%, and enabled interactive filtering and success rate analysis by organisation, scheme, and year.",
+    },
+    {
+      icon: <Table className="w-12 h-12 text-teal-500" />,
+      title: "Full Stack Airtable Clone",
+      description:
+        "Built a high-performance spreadsheet application supporting 1M+ rows using DOM-based virtualization to render only visible cells while maintaining sub-16ms frame times. Implemented pixel-perfect keyboard navigation matching Excel/Google Sheets UX, plus real-time collaborative editing with optimistic UI updates via tRPC, reducing perceived latency by 200ms.",
     },
     // {
     //   icon: <Smartphone className="w-12 h-12 text-yellow-500" />,
